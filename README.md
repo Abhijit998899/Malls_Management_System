@@ -29,7 +29,7 @@ Mall
  
 # ADD THE DATA FOR PROJECT OF Mall_Management_System
 1. mall
-# create table  mall(mall_id number(10) constraint mall_id_pk primary key ,name varchar(30),location varchar(30),contact_number number(20),total_floors number(10),email varchar(20));
+create table  mall(mall_id number(10) constraint mall_id_pk primary key ,name varchar(30),location varchar(30),contact_number number(20),total_floors number(10),email varchar(20));
 
 INSERT INTO mall (mall_id, name, location, contact_number, total_floors, email) 
 VALUES (1, 'City Mall', 'Latur', 9923456789, 5, 'citymall@example.com'),
